@@ -11,7 +11,7 @@ from sentence_transformers import SentenceTransformer
 # Load the dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/workspaces/AutomatedPatentRelevanceSystem/neural_network_patent_query.csv')
+    df = pd.read_csv('neural_network_patent_query.csv')
     st.write('Data loaded')
     return preprocess_data(df)
 
