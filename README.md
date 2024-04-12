@@ -8,7 +8,8 @@ graph TD
     H --> I[Perform Cosine Similarity]
     D --> I
     I --> J[Rank and Retrive the top N results]
-    
+```
+
 
 
 
