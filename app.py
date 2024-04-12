@@ -1,7 +1,7 @@
-#_import_('pysqlite3')
-import pysqlite3 as sqlite3
+_import_('pysqlite3')
+#import pysqlite3 as sqlite3
 import sys
-#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
 import pandas as pd
