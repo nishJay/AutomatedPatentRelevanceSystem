@@ -1,5 +1,5 @@
-_import_('pysqlite3')
-import sqlite3
+__import_('pysqlite3')
+
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
